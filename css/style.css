@@ -80,6 +80,7 @@ span.bdArrow{
 
 .tasksContainer li{
     line-height: 40px;;
+    font-size: 14pt;
 }
 
 /* True and false icons */
@@ -98,10 +99,39 @@ span.bdArrow{
 }
 
 .true{
-    border-color: green;
-    color: green;
+    border-color: #6FC6B2;
+    color: #6FC6B2;
 }
 .false{
-    border-color: red;
-    color: red;
+    border-color: #EB5C56;
+    color: #EB5C56;
+}
+
+/* Tags */
+.tags{
+    color: white;
+    background-color: grey;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin-left: 6px;
+    font-size: 12pt;
+}
+/* Tags Color */
+.blue{
+    background-color: #45ABEA;
+}
+.purple{
+    background-color: #9C72E4;
+}
+.aqua{
+    background-color: #64C0A9;
+}
+.orange{
+    background-color: #F29E33;
+}
+.magenta{
+    background-color: #D863A1;
+}
+.lightgreen{
+    background-color: #B0C926;
 }
