@@ -1,4 +1,4 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;}
 
 body{
     background-color: lightgrey;
@@ -17,7 +17,6 @@ header{
 }
 
 .logobox h1{
-    font-family: sans-serif;
     font-size: 30pt;
     font-weight: bold;
     display: inline;
@@ -64,4 +63,45 @@ button.btnSection{
     background-color: transparent;
     color: lightslategrey;
     border: 2px solid lightslategrey;
+}
+
+/* Sezione tasks */
+.tasksContainer{
+    padding: 20px 30px;
+}
+
+.tasksContainer h3{
+    font-size: 20pt;
+}
+span.bdArrow{
+    font-size: 36pt;
+    vertical-align: middle;
+}
+
+.tasksContainer li{
+    line-height: 40px;;
+}
+
+/* True and false icons */
+.true, .false{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 20px;
+    padding: 3px;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 12pt;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.true{
+    border-color: green;
+    color: green;
+}
+.false{
+    border-color: red;
+    color: red;
 }
